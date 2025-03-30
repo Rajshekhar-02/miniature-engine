@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freelance Coder - Hire Me</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background: linear-gradient(to right, #f4f4f4, #e2e2e2);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background: #222;
+            color: #fff;
+            padding: 60px 0;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.7);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+        .container {
+            width: 80%;
+            margin: 30px auto;
+            overflow: hidden;
+        }
+        .about, .services, .contact {
+            background: #fff;
+            margin: 30px 0;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .about:hover, .services:hover, .contact:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            text-align: center;
+            color: #444;
+            font-size: 2.2rem;
+        }
+        p, li {
+            font-size: 1.2rem;
+            line-height: 1.8;
+        }
+        ul {
+            list-style: none;
+        }
+        li::before {
+            content: '\2714';
+            color: #28a745;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+        .btn {
+            display: inline-block;
+            padding: 14px 30px;
+            color: #fff;
+            background: #28a745;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s, transform 0.3s;
+            font-size: 1.2rem;
+        }
+        .btn:hover {
+            background: #218838;
+            transform: scale(1.05);
+        }
+        footer {
+            text-align: center;
+            background: #222;
+            color: #fff;
+            padding: 30px;
+            font-size: 1.2rem;
+            box-shadow: 0 -4px 15px rgba(0, 0, 0, 0.7);
+        }
+        a {
+            color: #28a745;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            color: #218838;
+            text-decoration: underline;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 95%;
+            }
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Freelance Coder - Hire Me</h1>
+    </header>
+
+    <div class="container">
+        <section class="about">
+            <h2>About Me</h2>
+            <p>My name is Raj Shekhar Shukla, and I am a passionate coder offering freelance services. I specialize in Java, web development, and creating custom solutions for your needs. Let me handle your coding projects efficiently and affordably!</p>
+            <p>I am dedicated to delivering clean, efficient, and scalable code that meets your specific requirements. Whether it's building a dynamic website, solving complex problems, or developing software, I'm here to help.</p>
+            <p>My goal is to ensure customer satisfaction through clear communication, timely delivery, and quality results. Let's collaborate to bring your ideas to life!</p>
+        </section>
+
+        <section class="services">
+            <h2>My Services</h2>
+            <ul>
+                <li>Java programming and projects</li>
+                <li>Website development (HTML, CSS, JavaScript)</li>
+                <li>Custom coding solutions</li>
+                <li>Debugging and optimization</li>
+            </ul>
+        </section>
+        
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Interested in working with me? Reach out today!</p>
+            <p>Email: <a href="email.html">rajshekharshukla02@gmail.com</a></p>
+        </section>
+    </div>
+    
+    <footer>
+        <p>Phone: 9120725057<br>Email: rajshekharshukla02@gmail.com</p>
+    </footer>
+</body>
+</html>
